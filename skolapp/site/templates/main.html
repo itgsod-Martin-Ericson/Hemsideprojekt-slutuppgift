@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>International School</title>
+
+        <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<<<<<<< HEAD
+      <script src="http://maps.googleapis.com/maps/api/js"></script>
+<script>
+function initialize() {
+  var mapProp = {
+    center:new google.maps.LatLng(59.261805, 18.084582),
+    zoom:15,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+=======
+
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <script>
+    function initialize() {
+      var mapProp = {
+        center:new google.maps.LatLng(59.261805, 18.084582),
+        zoom:15,
+        mapTypeId:google.maps.MapTypeId.ROADMAP
+      };
+      var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    }
+    google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+>>>>>>> origin/master
+    </head>
+<body style="padding-top: 70px" id="home">
+    <div class="container">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+<<<<<<< HEAD
+          <a class="navbar-brand" href="#">École Internationale</a>
+        </div>
+        <nav id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#teachers">Our Teachers</a></li>
+                <li><a href="#parents">For Parents</a></li>
+                <li><a href="#contact">Contact</a></li>
+=======
+          <a class="navbar-brand" href="#home">Min skola</a>
+        </div>
+        <nav id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="#home">Hem</a></li>
+                <li><a href="#news">Nyheter</a></li>
+                <li><a href="#school">Om skolan</a></li>
+                <li><a href="#crew">Våra arbetslag</a></li>
+                <li><a href="#parent">Jag som förälder</a></li>
+                <li><a href="#contact">Kontakta oss</a></li>
+>>>>>>> origin/master
+            </ul>
+        </nav>
+        </div>
+    </nav>
+        <div class="jumbotron">
+            <div class="media">
+                <div class="media-left">
+                    <img class="media-object img-rounded" src="{{ url_for('static', filename='img/Hyttan_2.jpg') }}">
+                </div>
+                <div class="media-body">
+                    <h2 class="media-heading">École Internationale</h2>
+                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                </div>
+            </div>
+        </div>
+
+<<<<<<< HEAD
+        <div id="about" class="jumbotron">
+            <h1>About</h1>
+=======
+        <div id="news" class="jumbotron">
+            <h1>Nyheter</h1>
+>>>>>>> origin/master
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porta vel leo quis placerat. Duis a scelerisque quam, sit amet dignissim mauris. Praesent scelerisque sapien nisi, vel vulputate magna maximus sed. Vivamus a tellus cursus justo convallis congue. Integer auctor erat vel justo condimentum semper. Cras rutrum ante nibh, a laoreet turpis fringilla sed. Praesent bibendum pulvinar enim, ut aliquam nunc tempus eget. Sed sollicitudin cursus velit, sit amet faucibus nisi. Aliquam erat volutpat. Aliquam euismod in metus in laoreet. Vivamus sit amet hendrerit urna. Maecenas vel turpis eu enim rhoncus dictum.
+
+Etiam porttitor sapien at fringilla accumsan. Aenean feugiat dolor neque. Integer et consectetur turpis, ut semper magna. Aenean tempor est sem, ullamcorper pharetra metus congue ut. Proin sed ultricies mauris. Nulla arcu dolor, commodo a diam eget, fermentum scelerisque nibh. Vivamus lacinia sem ac placerat mattis. Nulla cursus aliquet nisl sed ultrices. Cras nec tristique quam. Nullam ac nibh nec lacus dignissim iaculis ac vel arcu. Donec bibendum ultricies leo, sed scelerisque ligula accumsan euismod. Nunc suscipit eleifend dictum. Nulla imperdiet velit ultricies dapibus sagittis. Curabitur vel posuere sem.</p>
+        </div>
+<<<<<<< HEAD
+        <div id="teachers" class="jumbotron">
+            <h1>Our Teachers</h1>
+            <div class="media">
+                <div class="media-left">
+                    <img class="media-object img-rounded" src="{{ url_for('static', filename='img/teacher.jpg') }}">
+                </div>
+                <div class="media-body">
+                    <h3 class="media-heading">Beaudin, Diana</h3>
+                    Have worked here for 9 years, french teacher.
+                </div>
+                <div class="media-left">
+                    <img class="media-object img-rounded" src="{{ url_for('static', filename='img/teacher.jpg') }}">
+                </div>
+                <div class="media-body">
+                    <h3 class="media-heading">Constant, Adalie</h3>
+                    Have worked here for 3 years, spanish teacher.
+                </div>
+                <div class="media-left">
+                    <img class="media-object img-rounded" src="{{ url_for('static', filename='img/teacher.jpg') }}">
+                </div>
+                <div class="media-body">
+                    <h3 class="media-heading">Nicolette, Camille</h3>
+                    Have worked here for 6 years, italian teacher.
+                </div>
+            </div>
+            </div>
+        <div id="parents" class="jumbotron">
+            <h1>For Parents</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porta vel leo quis placerat. Duis a scelerisque quam, sit amet dignissim mauris. Praesent scelerisque sapien nisi, vel vulputate magna maximus sed. Vivamus a tellus cursus justo convallis congue. Integer auctor erat vel justo condimentum semper. Cras rutrum ante nibh, a laoreet turpis fringilla sed. Praesent bibendum pulvinar enim, ut aliquam nunc tempus eget. Sed sollicitudin cursus velit, sit amet faucibus nisi. Aliquam erat volutpat. Aliquam euismod in metus in laoreet. Vivamus sit amet hendrerit urna. Maecenas vel turpis eu enim rhoncus dictum.
+
+Etiam porttitor sapien at fringilla accumsan. Aenean feugiat dolor neque. Integer et consectetur turpis, ut semper magna. Aenean tempor est sem, ullamcorper pharetra metus congue ut. Proin sed ultricies mauris. Nulla arcu dolor, commodo a diam eget, fermentum scelerisque nibh. Vivamus lacinia sem ac placerat mattis. Nulla cursus aliquet nisl sed ultrices. Cras nec tristique quam. Nullam ac nibh nec lacus dignissim iaculis ac vel arcu. Donec bibendum ultricies leo, sed scelerisque ligula accumsan euismod. Nunc suscipit eleifend dictum. Nulla imperdiet velit ultricies dapibus sagittis. Curabitur vel posuere sem.</p>
+        </div>
+        <div id="contact" class="jumbotron">
+            <h1>Contact</h1>
+            <p>The school is located on Lingvägen 123. Telephone number to reception is 123-321 12-23 </p>
+            <div id="googleMap" style="width:500px;height:380px;"></div>
+=======
+
+        <div id="school" class="jumbotron">
+            <h1>Om skolan</h1>
+            <p>Skolan ligger på Lingvägen 123 i Stockholm</p>
+            <div id="googleMap" style="width:500px;height:380px;"></div>
+        </div>
+
+        <div id="crew" class="jumbotron">
+            <h1>Våra arbetslag</h1>
+            <h3>Årskurs 7</h3>
+            <p>Lorem ipsum blah blah</p>
+            <h4>Linda</h4>
+            <p>Lorem ipsum blah blah</p>
+            <h4>Roger</h4>
+            <p>Lorem ipsum blah blah</p>
+            <h3>Årskurs 8</h3>
+            <p>Lorem ipsum blah blah</p>
+            <h4>Bosse</h4>
+            <p>Lorem ipsum blah blah</p>
+            <h4>Martin</h4>
+            <p>Lorem ipsum blah blah</p>
+        </div>
+
+        <div id="parent" class="jumbotron">
+            <h1>Jag som förälder</h1>
+            <h2>Sjukanmäla ditt barn</h2>
+            <p>Instruktioner: Ring in och säg att ditt är sjukt och kan inte gå till skolan.</p>
+            <p>Telefon: 076123123</p>
+        </div>
+
+        <div id="contact" class="jumbotron">
+            <h1>Kontakta oss</h1>
+            <p>Telefon till skolan: 076123123</p>
+            <p>Mailadress: skolan@skolan.se</p>
+>>>>>>> origin/master
+        </div>
+    </div>
+</body>
+</html>
